@@ -9,6 +9,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
+//Implement Merge Sort in a multi threaded environment
 public class MergeSorter implements Callable<List<Integer>> {
     List<Integer> arrayToSort;
     ExecutorService executorService;
